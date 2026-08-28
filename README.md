@@ -2,9 +2,9 @@
 
 测测你适合哪条互联网赛道 —— 趣味职业探索 H5。
 
-- GitHub Pages（国内同学优先）：https://Cecilia-Huu.github.io/saidao-cece/
-- Vercel 备用：https://saidao-cece.vercel.app
-- 文档：见 `docs/` 与桌面交接包
+**在线体验：** [cecilia-huu.github.io/saidao-cece](https://cecilia-huu.github.io/saidao-cece/)
+
+Vercel 版本继续保留为备用部署：https://saidao-cece.vercel.app
 
 ## 技术栈
 
@@ -17,10 +17,13 @@ npm install
 npm run dev
 ```
 
+生产构建：
+
 ```bash
 npm run build
-npx vercel --prod   # 需登录你自己的 Vercel
 ```
+
+推送到 `main` 分支后，GitHub Actions 会自动构建并更新 GitHub Pages。
 
 ## 功能概览
 
